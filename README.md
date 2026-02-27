@@ -1,4 +1,4 @@
-Portfolio of completed projects I worked on while attending the PROGRAM NAME TripleTen Bootcamp.
+Portfolio of completed projects I worked on while attending the Business Intelligence TripleTen Bootcamp.
 
 | Project number | Title | Description |
 | :-----------: | ----------- |----------- |
