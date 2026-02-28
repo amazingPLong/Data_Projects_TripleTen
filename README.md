@@ -4,7 +4,7 @@ Portfolio of completed projects I worked on while attending the Business Intelli
 | :-----------: | ----------- |----------- |
 | 1 | [Fresh Beats]([PROJECT DIRECTORY LINK](https://github.com/amazingPLong/Data_Projects_TripleTen/tree/main/Fresh%20Beats)) | To optimize its operations and further enhance business performance. |
 | 2 | [Air B&B Spread Sheet data Analysis]([PROJECT DIRECTORY LINK](https://github.com/amazingPLong/Data_Projects_TripleTen/tree/main/Spread%20Sheet%20Data%20Analysis)) | Analyze the Manhattan vacation rental market. Give guidance on which property types to invest in Airbnb. |
-| 3 | [PROJECT NAME](PROJECT DIRECTORY LINK) | DESCRIPTION HERE. |
+| 3 | [E-commerce Business Analytics]([PROJECT DIRECTORY LINK](https://github.com/amazingPLong/Data_Projects_TripleTen/tree/main/Business%20Analytics)) | Understanding how well the website is converting product page views into purchasesand Cohort analysis. |
 | 4 | [PROJECT NAME](PROJECT DIRECTORY LINK) | DESCRIPTION HERE. |
 | 5 | [PROJECT NAME](PROJECT DIRECTORY LINK) | DESCRIPTION HERE. |
 | 6 | [PROJECT NAME](PROJECT DIRECTORY LINK) | DESCRIPTION HERE. |
