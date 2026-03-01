@@ -1,200 +1,138 @@
 # 🛍️ Saving SuperStore  
-### Data Visualization with Tableau | Profitability, Advertising & Returns Analysis
+### Tableau Profitability, Advertising & Returns Analysis
 
 ---
 
-## 📌 Project Overview
+## 📊 Project Overview
 
-The SuperStore is facing declining profitability and potential bankruptcy.  
-As a consultant, I was hired to analyze operational performance and identify:
+The SuperStore is experiencing declining profitability and potential financial instability.  
+As a consultant, I was tasked with identifying:
 
-- Major profit centers and loss drivers
-- Products and subcategories to discontinue
-- Strategic advertising opportunities
-- Return rate risks affecting profitability
+- Major profit centers and loss drivers  
+- Products and subcategories to discontinue  
+- Strategic advertising opportunities  
+- Return rate risks impacting margins  
 
-All findings were supported with individual Tableau visualizations and business-focused recommendations.
+All recommendations are supported with Tableau visualizations and financial analysis.
 
 ---
 
-# 📊 Part 1: Profit & Loss Analysis
+# 📈 1️⃣ Profit & Loss Analysis
 
-(See Profit & Loss dashboard: :contentReference[oaicite:0]{index=0})
+<img src="images/profit_loss.png.png" width="900">
 
-## 🔎 Top Profit Centers
+## 🔎 Key Findings
 
-Analysis of dimension pairs revealed:
-
-### ✅ Strongest Subcategories
+### ✅ Top Profit Centers
 - **Copiers**
 - **Phones**
 - **Accessories**
 
-These categories consistently generated strong positive margins across regions.
+These categories generate strong positive margins across regions.
 
----
-
-## ❌ Largest Loss Drivers
-
-### Bottom Performing Subcategories:
+### ❌ Major Loss Drivers
 - **Tables**
 - **Bookcases**
 - **Supplies**
 
-Certain regions (notably Central and East) showed persistent losses in these segments.
+Furniture (especially Tables) consistently generates losses across multiple regions.
+
+### 🚫 Products to Stop Selling
+Multiple SKUs show persistent negative profit across years and regions.  
+Examples include conference tables and specialty bookcases.
+
+### 🎯 Recommendation
+- Scale high-margin technology categories  
+- Reduce exposure to loss-making furniture  
+- Eliminate chronically negative SKUs  
 
 ---
 
-## 🚫 Products to Stop Selling
+# 📢 2️⃣ Advertising Strategy
 
-The “Products to Stop Selling” visualization identified specific SKUs generating consistent losses.
+<img src="images/advertising.png.png" width="900">
 
-Examples include:
-- StarTech HDMI Adapter Kit
-- Bush Saratoga Collection Bookcase
-- Chromcraft Rectangular Conference Tables
+Advertising must be driven by **Return on Ad Spend (ROAS)**.
 
-These products show negative profit across multiple years and regions.
+## 🏆 Top State + Month Combinations
 
----
+| State      | Best Month  | Avg Profit |
+|------------|------------|------------|
+| Indiana    | October    | ~$643 |
+| Vermont    | November   | ~$596 |
+| Washington | March      | ~$521 |
 
-## 🎯 Strategic Recommendation
-
-- Double down on **Copiers, Phones, Accessories**
-- Discontinue consistently negative-margin SKUs
-- Reevaluate pricing or sourcing strategy for Furniture (especially Tables)
-
----
-
-# 📢 Part 2: Advertising Strategy
-
-(See Advertising Breakdown dashboard: :contentReference[oaicite:1]{index=1})
-
-The SuperStore wants to invest in advertising only where **Return on Ad Spend (ROAS)** justifies it.
-
-### 🏆 Top 3 State + Month Combinations
-
-| State | Best Month | Avg Profit |
-|--------|------------|------------|
-| Indiana | October | $596 |
-| Vermont | November | — |
-| Washington | March | $521 |
-
-These combinations show the highest average profit per unit sold.
-
----
-
-## 💰 Advertising Budget Rule
-
-For this exercise:
-> Willing to spend **1/5 (20%) of average profit** on advertising.
+### 💰 Ad Spend Rule
+For this analysis:
+> Willing to spend **20% of average profit** on advertising.
 
 Example:
-- If avg monthly profit = $596  
-- Max recommended ad spend = ~$119
+- Indiana (October): $643 avg profit  
+- Recommended max ad spend: ~$129  
 
-This ensures positive ROAS.
-
----
-
-## 📈 Strategic Insight
-
-Advertising should:
-- Be geographically targeted
-- Be seasonally optimized
-- Focus only on historically high-margin states
-
-Avoid blanket national campaigns.
+### 🎯 Recommendation
+- Target advertising geographically and seasonally  
+- Avoid blanket campaigns  
+- Focus on historically high-margin months  
 
 ---
 
-# 🔁 Part 3: Returned Items Analysis
+# 🔁 3️⃣ Returns & Profit Risk Analysis
 
-(See Returns Dashboard: :contentReference[oaicite:2]{index=2})
+<img src="images/returns.png.png" width="900">
 
-To assess operational risk:
+## 🔎 Key Findings
 
-- Returns table was LEFT JOINED to Orders
-- “Returned” converted to binary calculated field (Yes = 1, Null = 0)
-- Return rate calculated per product and customer
+### 🚨 High Return Products
+Certain printers, phones, and specialty items show extremely high return rates (some near 100%).
 
----
+### 👤 High-Risk Customers
+Several customers demonstrate return rates above 80%, reducing profitability significantly.
 
-## 🔎 Highest Return Rate Products
+### 📊 State-Level Risk
+Some states combine:
+- Low profit
+- High return rate
 
-Top returned products include:
-- Zebra GX420 Printer
-- Okidata Printer
-- Cisco SPA 501G Phone
-- Logitech Wireless Speaker
-
-These products show abnormal return percentages.
-
----
-
-## 👤 Customers with Highest Return Rates
-
-Several customers show return rates above 80–100%, indicating:
-- Potential abuse
-- Product quality issues
-- Misaligned expectations
-
----
-
-## 📊 State Profit vs Return Rate
-
-Scatter analysis shows:
-
-- Some states (e.g., Oregon, Tennessee, Colorado) combine **low profit + high return rates**
-- Others (e.g., Indiana) maintain high profitability with moderate returns
+These markets require operational review.
 
 ---
 
 # 💡 Executive Recommendations
 
-## 1️⃣ Remove or Reprice Loss-Making SKUs
-Eliminate products with persistent negative margins and high return rates.
+## 1️⃣ Eliminate Persistent Loss SKUs
+Remove chronically unprofitable products.
 
-## 2️⃣ Optimize Advertising Spend
-Focus budget on:
+## 2️⃣ Reevaluate Furniture Strategy
+Tables and Bookcases show structural margin issues.
+
+## 3️⃣ Implement Targeted Advertising
+Focus on:
 - Indiana (October)
 - Vermont (November)
 - Washington (March)
 
-Use a capped 20% ROAS model.
-
-## 3️⃣ Reduce Return Risk
-- Audit high-return SKUs
-- Review supplier quality
-- Implement stricter return policies for high-risk customer accounts
-
-## 4️⃣ Focus on High-Margin Categories
-Expand:
-- Copiers
-- Phones
-- Accessories
-
-Scale back:
-- Tables
-- Bookcases
-- Supplies
+## 4️⃣ Reduce Return Risk
+- Audit high-return SKUs  
+- Review supplier quality  
+- Tighten return policy for repeat offenders  
 
 ---
 
 # 🛠 Skills Demonstrated
 
-- Tableau Dashboard Development
-- Profit & Loss Decomposition
-- Dimensional Analysis
-- ROAS Modeling
-- Return Rate Calculations
-- LEFT JOIN Data Modeling
-- Calculated Fields in Tableau
-- Executive Storytelling with Data
+- Tableau Dashboard Development  
+- Profit Decomposition Analysis  
+- Dimensional Profit Segmentation  
+- ROAS Modeling  
+- Return Rate Calculations  
+- LEFT JOIN Data Modeling  
+- Executive Storytelling with Data  
 
 ---
 
 # 📂 Repository Structure
+
 ---
 
 ---
