@@ -1,6 +1,6 @@
 ## 🎥 Project Walkthrough
 
-[![Watch the Walkthrough](images/video_thumbnail.png)]([https://your-video-link-here.com](https://youtu.be/tviezj9T0bY))
+[![Watch the Walkthrough](images/video_thumbnail.jpg)]([https://your-video-link-here.com](https://youtu.be/tviezj9T0bY))
 
 # 📦 Superstore Returns Analysis  
 ### Storytelling with Data | Tableau Dashboard Project
