@@ -107,7 +107,7 @@ Retention was measured monthly for each cohort.
 
 # 📝 Executive Summary & Documentation
 
-<img src="images/toc_executive_summary.png" width="900">
+<img src="images/toc_executive_summary1.png" width="900">
 
 The workbook includes:
 
