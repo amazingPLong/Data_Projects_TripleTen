@@ -1,6 +1,8 @@
-## 🎥 Project Walkthrough
+## 🎥 3-Minute Project Walkthrough
 
-[![Watch the Walkthrough](images/video_thumbnail.png)]([https://your-video-link-here.com](https://youtu.be/tviezj9T0bY))
+Click the image below to watch the full dashboard walkthrough:
+
+[![Superstore Returns Walkthrough](images/video_thumbnail.png)](https://youtu.be/tviezj9T0bY)
 
 # 📦 Superstore Returns Analysis  
 ### Storytelling with Data | Tableau Dashboard Project
