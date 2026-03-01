@@ -79,7 +79,7 @@ Example:
 
 # 🔁 3️⃣ Returns & Profit Risk Analysis
 
-<img src="images/returns.png.png" width="900">
+<img src="images/returnes.png.png" width="900">
 
 ## 🔎 Key Findings
 
