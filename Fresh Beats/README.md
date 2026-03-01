@@ -17,7 +17,10 @@ The objective was to interpret provided insights and visualizations and translat
 
 # 📊 Project Status & Reporting Structure
 
-<img src="images/project_status.png" width="600">
+<img src="images/status_report.png" width="850">
+<img src="images/status_report1.png" width="850">
+<img src="images/status_report2.png" width="850">
+<img src="images/status_report3.png" width="850">
 
 The report includes:
 
